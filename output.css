@@ -1492,13 +1492,35 @@ input:checked + .toggle-bg {
   --tw-border-opacity: 1;
   border-color: rgb(28 100 242 / var(--tw-border-opacity));
 }
+
+/*Custom Code by ARI */
+a{
+  transition: all 0.37s;
+}
 .bg-ari{
   --tw-bg-opacity: 1;
-  background-color: #f3ffcb;
+  /*background-color: #f3ffcb;*/
+  background-color: #08b3ab;
 }
 .bg-ari1{
-  background-color: #fbffed;
+  /*background-color: #fbffed;*/
+  background-color: #e9f7f8;
 }
+
+.ari_ul1 a{
+  color: #fff;
+}
+.ari_a1{
+  color: #fff;
+}
+.ari_a2{
+  background-color: #e9f7f8;
+  color: #b76097;
+}
+.ari_a2:hover{
+  background-color: #ffde08;
+}
+/*Custom Code Ended by ARI */
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1546,6 +1568,13 @@ input:checked + .toggle-bg {
 
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
+}
+
+.cr_a1{
+  color: #08b3ab;
+}
+.cr_a2{
+  color: #fff;
 }
 
 .p-2 {
